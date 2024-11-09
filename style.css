@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231110/pngtree-abstract-light-colored-paint-texture-background-wallpaper-image_13802780.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203, 185, 185, 0.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: black;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid rgb(17, 21, 10);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #202c38;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(250, 255, 243);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    background: rgb(51, 70, 97);
+    color: white;
+    border: 3px solid rgb(255, 222, 222);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+button:hover{
+    background-color: rgb(103, 226, 248);
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+#resumeOutput h2{
+    color: white;
+}
+
+.profilepicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid green;
+    box-shadow: rgb(113, 176, 19);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
